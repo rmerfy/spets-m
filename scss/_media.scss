@@ -1,0 +1,501 @@
+@media (min-width: 1500px) {
+    .tab__img {
+        border-radius: 20px;
+    }
+    .contract-info__img {
+        border-radius: 20px;
+    }
+    .audit__img {
+        border-radius: 20px;
+    }
+}
+@media (max-width: 1340px) {
+    .products__slide-title {
+        font-size: 18px;
+    }
+    .calc-project__content {
+        max-width: 850px;
+        height: auto;
+    }
+
+    .step__select--step2 {
+        max-width: 600px;
+    }
+
+    .step__select-real {
+        max-width: 290px;
+    }
+
+    .step__select-inputs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .step__select-input {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .step__select-title {
+        text-align: center;
+        display: block;
+    }
+}
+@media (max-width: 1200px) {
+    .title {
+        text-align: center;
+    }
+
+    .info__title {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .info__descr {
+        font-size: 12px;
+    }
+
+    .info__item:not(:last-child) {
+        margin-right: 8px;
+        padding-right: 8px;
+    }
+
+    .slider__slide {
+        height: 380px;
+    }
+
+    .about-us__inner {
+        flex-direction: column;
+    }
+    .about-us__text {
+        max-width: 800px;
+        margin-bottom: 30px;
+        &::before {
+            content: none;
+        }
+    }
+
+    .our-clients__items {
+        grid-template-columns: repeat(2, 290px);
+    }
+
+    .our-clients__item {
+        &:nth-child(1) {
+            border-radius: 10px 0 0 0;
+        }
+        &:nth-child(2) {
+            border-radius: 0 10px 0 0;
+        }
+        &:nth-child(4) {
+            border-radius: 0;
+        }
+        &:nth-child(5) {
+            border-radius: 0;
+        }
+        &:nth-child(7) {
+            border-radius: 0 0 0 10px;
+        }
+        &:nth-child(8) {
+            border-radius: 0 0 10px 0;
+        }
+    }
+
+    .products__slide-content {
+        width: 90%;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .calc-project {
+        padding: 60px 0;
+    }
+
+    .calc-project__inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .calc-project__content {
+        margin: 0 auto 30px auto;
+        padding: 30px 15px;
+    }
+    .calc-project__info {
+        margin: 0 auto;
+    }
+    .calc-project__info::after {
+        content: none;
+    }
+    .step__inner {
+        flex-direction: column;
+    }
+    .step__title {
+        text-align: center;
+    }
+    .form-calc__progress-numbers {
+        text-align: center;
+    }
+    .step__select {
+        margin: 0 auto 30px auto;
+        width: auto;
+    }
+    .step__select-real {
+        text-align: center;
+    }
+    .step__inner img {
+        margin: 0 auto;
+    }
+    .banner::before {
+        content: none;
+    }
+    .banner__content {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .job-steps__tab a {
+        font-size: 16px;
+    }
+
+    .tab {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .tab__content {
+        margin-bottom: 40px;
+    }
+    .tab__img {
+        border-radius: 20px;
+    }
+    .audit__img {
+        display: none;
+    }
+    .audit__content {
+        margin: 0 auto;
+    }
+    .contract-info__img {
+        display: none;
+    }
+    .contract-info__inner {
+        justify-content: center;
+    }
+    .completed-job__slider-inner {
+        flex-direction: column;
+    }
+    .completed-job__slider-inner img {
+        margin-bottom: 40px;
+    }
+    .questions__inner {
+        flex-direction: column;
+    }
+    .questions__items {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-item-has-children > ul.sub-menu ul.sub-menu {
+        top: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .menu-item-has-children > ul.sub-menu {
+        background: $gradient;
+    }
+
+    .menu-item-has-children > ul.sub-menu li a {
+        color: #fff;
+        &:hover {
+            color: #c4c4c4;
+        }
+    }
+
+    .menu-item-has-children > ul.sub-menu .menu-item-has-children::after {
+        background-image: url(../images/icons/drop-down.svg);
+    }
+
+    .header__inner {
+        padding: 5px 0;
+    }
+
+    .menu {
+        position: static;
+    }
+    .menu__wrapper {
+        transform: translateX(105%);
+        transition: all 0.9s ease-in-out;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 290px;
+        z-index: 6;
+        background: $gradient;
+        padding: 20px 30px;
+        overflow-x: scroll;
+        box-shadow: 0 0 10px 2px rgba(#000, 0.5);
+    }
+
+    .menu__list {
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu__wrapper.active {
+        transform: translateX(0);
+    }
+    .menu__close {
+        display: block;
+        font-size: 28px;
+        text-align: right;
+        color: #fff;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu-btn {
+        display: block;
+        background: transparent;
+        border: none;
+        padding: 10px 5px 5px 5px;
+    }
+
+    .menu__list li:not(:last-child) {
+        margin: 0;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .header__inner {
+        justify-content: center;
+    }
+
+    .menu__mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu__contacts {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        &-item {
+            color: #fff;
+        }
+    }
+
+    .features__items {
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .products__wrapper {
+        flex-direction: column;
+    }
+
+    .products__slide {
+        height: 260px;
+        padding-top: 10px;
+    }
+
+    .products__slide-content {
+        width: 50%;
+        padding: 20px 10px 20px 30px;
+    }
+
+    .products__slide:not(:last-child) {
+        margin: 0 0 10px 0;
+    }
+
+    .step__select--step2 {
+        max-width: 290px;
+        justify-content: center;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+    }
+
+    .footer__menu-list {
+        padding: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .footer__logo-link {
+        margin: 0 auto 10px auto;
+    }
+
+    .footer__quest-title {
+        text-align: center;
+    }
+
+    .footer__quest {
+        margin: 0 0 20px 0;
+    }
+
+    .footer__inner {
+        padding: 30px 0;
+    }
+    .page--scroll {
+        margin-top: 108px;
+    }
+    .banner__inner {
+        flex-direction: column;
+    }
+    .banner__content {
+        margin: 20px auto 20px auto;
+    }
+    .banner__form {
+        margin: 0 auto;
+        height: 350px;
+    }
+    .job-steps {
+        padding: 40px 0;
+    }
+    .audit {
+        margin: 0;
+        padding: 40px 0;
+    }
+    .audit__title {
+        margin: 0 0 20px 0;
+    }
+    .contract-info {
+        padding: 40px 0;
+    }
+    .questions {
+        padding: 40px 0;
+    }
+    .job-steps__tab {
+        flex-direction: column;
+    }
+    .job-steps__tab::after,
+    .job-steps__tab .act::after {
+        content: none;
+    }
+    .job-steps__tab {
+        max-width: 290px;
+        margin: 0 auto;
+        text-align: center;
+        li:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 625px) {
+    .title {
+        font-size: 22px;
+    }
+    .slider__slide-content {
+        padding: 20px 0 20px 45px;
+    }
+    .features__items {
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .form-calc__prev {
+        width: 130px;
+        margin: 0;
+    }
+
+    .form-calc__next {
+        width: 130px;
+    }
+
+    .our-clients__items {
+        grid-template-columns: repeat(1, 250px);
+    }
+    .our-clients__item {
+        &:nth-child(1) {
+            border-radius: 10px 10px 0 0;
+        }
+        &:nth-child(2) {
+            border-radius: 0;
+        }
+        &:nth-child(4) {
+            border-radius: 0;
+        }
+        &:nth-child(5) {
+            border-radius: 0;
+        }
+        &:nth-child(7) {
+            border-radius: 0;
+        }
+        &:nth-child(8) {
+            border-radius: 0 0 10px 10px;
+        }
+    }
+
+    .products__slide-content {
+        width: 80%;
+    }
+    .step__select--step4 {
+        max-width: 185px;
+        justify-content: center;
+        max-height: 500px;
+    }
+    .audit__subtitle {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .audit__form {
+        flex-direction: column;
+        max-width: 275px;
+        margin: 0 auto;
+    }
+    .audit__input {
+        margin: 0 0 10px 0;
+        width: 270px;
+    }
+}
+
+@media (max-width: 540px) {
+    .tingle-modal__close {
+        background: $blue;
+    }
+    .tingle-modal-box {
+        max-width: 100%;
+    }
+    .contract-info__list-title {
+        font-size: 12px;
+    }
+    .questions__item-title {
+        font-size: 12px;
+    }
+    .license__slider .swiper-slide a {
+        width: 250px;
+    }
+    .license__slider .swiper-button-next,
+    .license__slider .swiper-button-prev {
+        &::after {
+            font-size: 20px;
+        }
+    }
+    .questions__items {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 374px) {
+    .form-calc__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-calc__prev {
+        margin: 0 0 5px 0;
+    }
+    .slider-thumbs .swiper-slide {
+        width: 290px !important;
+        text-align: center;
+    }
+    .license__slider .swiper-slide a {
+        width: 215px;
+        height: auto;
+    }
+}

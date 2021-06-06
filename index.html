@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Спец-м</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img src="images/logo.png" alt="logo">
+            </a>
+            <span class="logo__descr">
+              системы безопасности
+              зданий и сооружений
+            </span>
+          </div>
+          <div class="info">
+            <div class="info__item info__item--time">
+              <span class="info__title">с 9:00 до 19:00</span>
+              <span class="info__descr">Пн. - Пт. </span>
+            </div>
+            <div class="info__item info__item--location">
+              <span class="info__title">Санкт-Петербург</span>
+              <span class="info__descr">Полюстровский проспект д.72</span>
+            </div>
+            <div class="info__item">
+              <span class="info__title">info@sks-sp.ru</span>
+              <span class="info__descr"><a href="mailto:info@sks-sp.ru">Написать нам</a></span>
+            </div>
+            <div class="info__item">
+              <span class="info__title"><a class="info__tel" href="tel:+78129869953">+7 (812)
+                  986-99-53</a></span>
+              <span class="info__descr"><a class="info__callback" href="#">Отправить заявку</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="menu">
+        <div class="container menu__mobile">
+          <div class="menu__contacts">
+            <a class="menu__contacts-item" href="tel:+78129869953">+7 (812) 986-99-53</a>
+            <a class="menu__contacts-item info__callback" href="#">Отправить заявку</a>
+          </div>
+          <button class="menu-btn">
+            <img src="images/icons/burger.svg" alt="menu">
+          </button>
+          <div class="menu__wrapper">
+            <span class="menu__close">&times;</span>
+            <ul class="menu__list">
+              <li><a href="#">О компании</a></li>
+              <li class="menu-item-has-children"><a href="#">Услуги</a>
+                <ul class="sub-menu">
+                  <li class="menu-item-has-children">
+                    <a href="#">МОНТАЖ И УСТАНОВКА ПОЖАРНОЙ СИГНАЛИЗАЦИИ</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Пожарная сигнализация</a></li>
+                      <li><a href="#">Системы пожаротушения</a></li>
+                      <li><a href="#">Системы оповещения</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">МОНТАЖ СИСТЕМ ПОЖАРНОГО ОПОВЕЩЕНИЯ</a></li>
+                  <li><a href="#">МОНТАЖ СИСТЕМ ПОЖАРОТУШЕНИЯ</a></li>
+                  <li><a href="#">МОНТАЖ ПРОТИВОПОЖАРНОГО ВОДОПРОВОДА</a></li>
+                  <li><a href="#">МОНТАЖ СИСТЕМ КОНТРОЛЯ ДОСТУПА</a></li>
+                  <li><a href="#">МОНТАЖ СИСТЕМ ДЫМОУДАЛЕНИЯ</a></li>
+                  <li><a href="#">МОНТАЖ ВИДЕОНАБЛЮДЕНИЯ</a></li>
+                  <li><a href="#">МОНТАЖ ОХРАННОЙ СИГНАЛИЗАЦИИ</a></li>
+                  <li><a href="#">МОНТАЖ СЛАБОТОЧНЫХ СЕТЕЙ</a></li>
+                  <li><a href="#">УСТРАНЕНИЕ ЗАМЕЧАНИЙ МЧС</a></li>
+                  <li><a href="#">МОНТАЖ СЛАБОТОЧНЫХ СИСТЕМ</a></li>
+
+                </ul>
+              </li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section class="products">
+      <div class="products__wrapper">
+        <div class="products__slide products__slide--1">
+          <div class="products__slide-content products__slide-content--submenu">
+            <h2 class="products__slide-title">
+              Системы пожарной безопасности
+            </h2>
+            <a class="btn products__btn" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="products__slide products__slide--2">
+          <div class="products__slide-content">
+            <h2 class="products__slide-title">
+              Системы контроля <br> доступа
+            </h2>
+            <a class="btn products__btn" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="products__slide products__slide--3">
+          <div class="products__slide-content">
+            <h2 class="products__slide-title">
+              Системы <br> видеонаблюдения
+            </h2>
+            <a class="btn products__btn" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="products__slide products__slide--4">
+          <div class="products__slide-content">
+            <h2 class="products__slide-title">
+              Системы безопасности для частного дома
+            </h2>
+            <a class="btn products__btn" href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="calc-project">
+      <div class="container">
+        <h2 class="title calc-project__title">узнайте стоимость вашей системы</h2>
+        <div class="calc-project__inner">
+          <div class="calc-project__content">
+            <form class="form-calc">
+
+              <input type="hidden" name="project_name" value="Spets-m">
+              <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+              <input type="hidden" name="form_subject" value="Рассчитать стоимость системы">
+
+              <div class="form-calc__progress">
+                <span class="form-calc__progress-numbers">Вопрос <b class="current">1</b> из 5</span>
+                <div class="form-calc__progress-indicator">
+                  <span class="form-calc__progress-bar" style="width: 30%;"></span>
+                </div>
+              </div>
+
+              <div class="steps">
+                <div class="step">
+                  <h3 class="step__title">Тип услуги</h3>
+                  <div class="step__inner">
+                    <div class="step__select">
+                      <input class="step__select-fake" id="answer1" type="radio" name="Тип услуги"
+                        value="Монтаж системы">
+                      <label class="step__select-real" for="answer1">
+                        Монтаж системы
+                      </label>
+                      <input class="step__select-fake" id="answer2" type="radio" name="Тип услуги"
+                        value="Техническое обслуживание">
+                      <label class="step__select-real" for="answer2">
+                        Техническое обслуживание
+                      </label>
+                    </div>
+                    <img src="images/calc-form/01.png" alt="Услуги">
+                  </div>
+                </div>
+                <div class="step">
+                  <div class="step__inner">
+                    <div class="step__select step__select--step2">
+                      <input class="step__select-fake" id="answer3" type="checkbox" name="Вид монтажа-1"
+                        value="Пожарная сигнализация">
+                      <label class="step__select-real" for="answer3">
+                        Пожарная сигнализация
+                      </label>
+                      <input class="step__select-fake" id="answer4" type="checkbox" name="Вид монтажа-2"
+                        value="Контроль доступа">
+                      <label class="step__select-real" for="answer4">
+                        Контроль доступа
+                      </label>
+                      <input class="step__select-fake" id="answer5" type="checkbox" name="Вид монтажа-3"
+                        value="Охранная сигнализация">
+                      <label class="step__select-real" for="answer5">
+                        Охранная сигнализация
+                      </label>
+                      <input class="step__select-fake" id="answer6" type="checkbox" name="Вид монтажа-4"
+                        value="Пожаротушение">
+                      <label class="step__select-real" for="answer6">
+                        Пожаротушение
+                      </label>
+                      <input class="step__select-fake" id="answer7" type="checkbox" name="Вид монтажа-5"
+                        value="Видеонаблюдение">
+                      <label class="step__select-real" for="answer7">
+                        Видеонаблюдение
+                      </label>
+                      <input class="step__select-fake" id="answer8" type="checkbox" name="Вид монтажа-6"
+                        value="Пожарный водопровод">
+                      <label class="step__select-real" for="answer8">
+                        Пожарный водопровод
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="step">
+                  <h3 class="step__title">Укажите площадь помещения</h3>
+                  <div class="step__inner">
+                    <div class="step__select step__select--step3">
+                      <div class="step__select-inputs">
+                        <input class="step__select-input" name="площадь помещения от" type="text" placeholder="от 0м²">
+                        <input class="step__select-input" name="площадь помещения до" type="text"
+                          placeholder="до 900м²">
+                      </div>
+                      <div class="step__select-titles">
+                      </div>
+                      <div class="step__select-inputs">
+                        <label class="step__select-label">
+                          <b class="step__select-title">Количество камер</b>
+                          <input class="step__select-input" name="Количество камер" type="text" placeholder="0">
+                        </label>
+                        <label class="step__select-label">
+                          <b class="step__select-title">Количество дверей</b>
+                          <input class="step__select-input" name="Количество дверей" type="text" placeholder="0">
+                        </label>
+                      </div>
+                    </div>
+                    <img src="images/calc-form/01.png" alt="Услуги">
+                  </div>
+                </div>
+                <div class="step">
+                  <h3 class="step__title">Дополнительно для то</h3>
+                  <span class="step__select-title">Укажите площадь помещения</span>
+                  <div class="step__inner">
+                    <div class="step__select step__select--step4">
+                      <input class="step__select-fake" id="answer9" type="radio" name="площадь помещения"
+                        value="0-100м2">
+                      <label class="step__select-real" for="answer9">
+                        0-100м<sup>2</sup>
+                      </label>
+                      <input class="step__select-fake" id="answer10" type="radio" name="площадь помещения"
+                        value="100м2-500м2">
+                      <label class="step__select-real" for="answer10">
+                        100м<sup>2</sup>-500м<sup>2</sup>
+                      </label>
+                      <input class="step__select-fake" id="answer11" type="radio" name="площадь помещения"
+                        value="500-1000м2">
+                      <label class="step__select-real" for="answer11">
+                        500м<sup>2</sup>-1000м<sup>2</sup>
+                      </label>
+                      <input class="step__select-fake" id="answer12" type="radio" name="площадь помещения"
+                        value="от 1000м2">
+                      <label class="step__select-real" for="answer12">
+                        от 1000м<sup>2</sup>
+                      </label>
+
+                    </div>
+                    <img src="images/calc-form/01.png" alt="Услуги">
+                  </div>
+                </div>
+                <div class="step">
+                  <h3 class="step__title">Укажите ваши контактные данные</h3>
+                  <span class="step__select-title">И мы свяжемся с вами в течение <b>20 минут</b></span>
+                  <div class="step__inner">
+                    <div class="step__select step__select--step5">
+                      <input class="input step__input" type="tel" name="Номер" placeholder="Номер" required>
+                      <input class="input step__input" type="email" name="E-mail" placeholder="E-mail" required>
+                    </div>
+                    <img src="images/calc-form/01.png" alt="Услуги">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="form-calc__buttons">
+                <a class="btn form-calc__prev" href="#">Назад</a>
+                <a class="btn form-calc__next" href="#">Далее</a>
+                <button class="btn form-calc__submit" type="submit">Отравить</button>
+              </div>
+            </form>
+          </div>
+          <div class="calc-project__info">
+            <h3 class="calc-project__info-title">Что вы получите:</h3>
+            <ul class="calc-project__info-list">
+              <li>Сделаем проект <b>со скидкой 25%</b></li>
+              <li>Составим четкую смету</li>
+              <li>Подробную консультацию специалиста</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="about-us">
+      <div class="container">
+        <h2 class="title about-us__title">
+          Наша компания
+        </h2>
+        <div class="about-us__inner">
+          <div class="about-us__text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <p>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+          </div>
+          <div class="features">
+            <div class="features__items">
+
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+              <div class="features__item">
+                <img src="images/icons/features-01.svg" alt="features">
+                <div class="features__item-content">
+                  <h3 class="features__item-title">
+                    Преимущество
+                    номер 1
+                  </h3>
+                  <span class="features__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-clients">
+      <div class="container">
+        <h2 class="title our-clients__title">
+          Успешно работаем с клиентами разного уровня:
+        </h2>
+        <div class="our-clients__items">
+
+          <div class="our-clients__item">
+            <img src="images/clients/01.png" alt="01">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/02.png" alt="02">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/03.png" alt="03">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/04.png" alt="04">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/05.png" alt="05">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/06.png" alt="06">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/07.png" alt="07">
+          </div>
+          <div class="our-clients__item">
+            <img src="images/clients/08.png" alt="08">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <a class="footer__logo-link" href="#">
+              <img src="images/logo-footer.png" alt="logo">
+            </a>
+            <span class="footer__logo-descr">
+              системы безопасности зданий и сооружений
+            </span>
+          </div>
+          <div class="footer__menu">
+            <ul class="footer__menu-list">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer__quest">
+            <span class="footer__quest-title">
+              ОСТАЛИСЬ ВОПРОСЫ?
+            </span>
+            <a class="btn footer__btn" href="#">
+              <span>СВЯЗАТЬСЯ С НАМИ</span>
+            </a>
+          </div>
+          <div class="footer__contacts">
+
+            <div class="footer__contact">
+              <span class="footer__phone"><a href="tel:+78129869953">+7 (812) 986-99-53</a></span>
+              <span class="footer__mail"><a href="mailto:info@sks-sp.ru">info@sks-sp.ru</a></span>
+            </div>
+            <div class="footer__address">
+              <span class="footer__city">Санкт-Петербург</span>
+              <span>Полюстровский проспект д.72</span>
+            </div>
+
+          </div>
+        </div>
+        <span class="creator">Разработка и продвижение <a class="creator__link" rel="nofollow" href="https://silverduck.net/">SilverDuck</a></span>
+      </div>
+    </footer>
+  </div>
+  <div class="modal-callback">
+    <form class="modal-form">
+
+      <input type="hidden" name="project_name" value="Spets-m">
+      <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+      <input type="hidden" name="form_subject" value="Новая заявка">
+
+      <h2 class="modal-form__form-title">
+        Рассчитать стоимость работ
+      </h2>
+      <span class="modal-form__form-subtitle">
+        Оставьте заявку, и мы свяжемся с вами в течение <b>20 минут</b>
+      </span>
+      <input class="input modal-form__form-input" type="tel" name="Номер" placeholder="Номер телефона" required>
+      <input class="input modal-form__form-input" type="email" name="E-mail" placeholder="E-mail" required>
+      <button class="btn modal-form__form-btn" type="submit"><span>РАССЧИТАТЬ</span></button>
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script>
+    var callbackBtns = document.querySelectorAll('.info__callback'),
+      footerBtn = document.querySelector('.footer__btn');
+
+    var callbackModal = new tingle.modal({
+      footer: false,
+      stickyFooter: false,
+      closeMethods: ['overlay', 'button', 'escape'],
+      closeLabel: "Закрыть",
+      cssClass: ['custom-class-3'],
+    });
+
+    callbackModal.setContent(document.querySelector(".modal-callback").innerHTML);
+
+
+    callbackBtns.forEach((callbackBtn) => {
+      callbackBtn.addEventListener('click', function () {
+        callbackModal.open();
+      });
+    });
+
+    footerBtn.addEventListener('click', function () {
+      callbackModal.open();
+    });
+  </script>
+</body>
+
+</html>

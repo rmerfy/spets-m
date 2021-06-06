@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Спец-м</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <span class="logo__descr">
+                            системы безопасности
+                            зданий и сооружений
+                        </span>
+                    </div>
+                    <div class="info">
+                        <div class="info__item info__item--time">
+                            <span class="info__title">с 9:00 до 19:00</span>
+                            <span class="info__descr">Пн. - Пт. </span>
+                        </div>
+                        <div class="info__item info__item--location">
+                            <span class="info__title">Санкт-Петербург</span>
+                            <span class="info__descr">Полюстровский проспект д.72</span>
+                        </div>
+                        <div class="info__item">
+                            <span class="info__title">info@sks-sp.ru</span>
+                            <span class="info__descr"><a href="mailto:info@sks-sp.ru">Написать нам</a></span>
+                        </div>
+                        <div class="info__item">
+                            <span class="info__title"><a class="info__tel" href="tel:+78129869953">+7 (812)
+                                    986-99-53</a></span>
+                            <span class="info__descr"><a class="info__callback" href="#">Отправить заявку</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu">
+                <div class="container menu__mobile">
+                    <div class="menu__contacts">
+                        <a class="menu__contacts-item" href="tel:+78129869953">+7 (812) 986-99-53</a>
+                        <a class="menu__contacts-item info__callback" href="#">Отправить заявку</a>
+                    </div>
+                    <button class="menu-btn">
+                        <img src="images/icons/burger.svg" alt="menu">
+                    </button>
+                    <div class="menu__wrapper">
+                        <span class="menu__close">&times;</span>
+                        <ul class="menu__list">
+                            <li><a href="#">О компании</a></li>
+                            <li class="menu-item-has-children"><a href="#">Услуги</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="#">МОНТАЖ И УСТАНОВКА ПОЖАРНОЙ СИГНАЛИЗАЦИИ</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Пожарная сигнализация</a></li>
+                                            <li><a href="#">Системы пожаротушения</a></li>
+                                            <li><a href="#">Системы оповещения</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">МОНТАЖ СИСТЕМ ПОЖАРНОГО ОПОВЕЩЕНИЯ</a></li>
+                                    <li><a href="#">МОНТАЖ СИСТЕМ ПОЖАРОТУШЕНИЯ</a></li>
+                                    <li><a href="#">МОНТАЖ ПРОТИВОПОЖАРНОГО ВОДОПРОВОДА</a></li>
+                                    <li><a href="#">МОНТАЖ СИСТЕМ КОНТРОЛЯ ДОСТУПА</a></li>
+                                    <li><a href="#">МОНТАЖ СИСТЕМ ДЫМОУДАЛЕНИЯ</a></li>
+                                    <li><a href="#">МОНТАЖ ВИДЕОНАБЛЮДЕНИЯ</a></li>
+                                    <li><a href="#">МОНТАЖ ОХРАННОЙ СИГНАЛИЗАЦИИ</a></li>
+                                    <li><a href="#">МОНТАЖ СЛАБОТОЧНЫХ СЕТЕЙ</a></li>
+                                    <li><a href="#">УСТРАНЕНИЕ ЗАМЕЧАНИЙ МЧС</a></li>
+                                    <li><a href="#">МОНТАЖ СЛАБОТОЧНЫХ СИСТЕМ</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner">
+                    <div class="banner__content">
+                        <h1 class="title banner__title">
+                            Обслуживание автоматической пожарной сигнализации (АПС)
+                        </h1>
+                        <span class="banner__descr">
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                            регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                            обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом
+                            из строя. Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </span>
+                    </div>
+                    <form class="banner__form">
+
+                        <input type="hidden" name="project_name" value="Spets-m">
+                        <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+                        <input type="hidden" name="form_subject" value="Рассчитать стоимость работ">
+
+                        <h2 class="banner__form-title">
+                            Рассчитать стоимость работ
+                        </h2>
+                        <span class="banner__form-subtitle">
+                            Оставьте заявку, и мы свяжемся с вами в течение <b>20 минут</b>
+                        </span>
+                        <input class="input banner__form-input" type="tel" name="Номер" placeholder="Номер телефона"
+                            required>
+                        <input class="input banner__form-input" type="email" name="E-mail" placeholder="E-mail"
+                            required>
+                        <button class="btn btn--blue" type="submit"><span>РАССЧИТАТЬ</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="job-steps">
+            <div class="container">
+                <h2 class="title job-steps__title">этапы работы</h2>
+                <ul class="job-steps__tab" id="tabNav">
+                    <li><a href="#tab1" class="act">выезд инженера</a></li>
+                    <li><a href="#tab2">бесплатный замер</a></li>
+                    <li><a href="#tab3">Разработка проекта</a></li>
+                    <li><a href="#tab4">Монтаж</a></li>
+                    <li><a href="#tab5">Пусконаладочные работы</a></li>
+                    <li><a href="#tab6">Обслуживание</a></li>
+                </ul>
+            </div>
+            <div class="tabs" id="tabsWrap">
+                <div class="tab act" id="tab1">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>1</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+                <div class="tab" id="tab2">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>2</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+                <div class="tab" id="tab3">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>3</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+                <div class="tab" id="tab4">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>4</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+                <div class="tab" id="tab5">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>5</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+                <div class="tab" id="tab6">
+                    <div class="tab__content">
+                        <span class="tab__indicator"><b>6</b>/6</span>
+                        <h3 class="tab__title">Анализ технической документации</h3>
+                        <p>
+                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                            который
+                            регламентируется законом РФ.
+                        </p>
+
+                        <p>
+                            Потому что без своевременного и грамотного технического обслуживания любой
+                            системы,
+                            и особенно пожарной сигнализации в целом, грозит быстрым выводом из строя.
+                        </p>
+                        <p>
+                            Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                        </p>
+                        <a class="btn btn--op" href="#">
+                            <span>ВЫЗВАТЬ ИНЖЕНЕРА</span>
+                        </a>
+                    </div>
+                    <img class="tab__img" src="images/page/img01.png" alt="slide">
+                </div>
+            </div>
+        </section>
+        <section class="audit">
+            <div class="container container--audit">
+                <img class="audit__img" src="/images/page/img03.png" alt="audit">
+                <div class="audit__content">
+                    <span class="audit__subtitle">Нужен аудит системы пожарной сигнализации?</span>
+                    <h2 class="title audit__title">Бесплатно отправим инженера на объект</h2>
+                    <form class="audit__form">
+
+                        <input type="hidden" name="project_name" value="Spets-m">
+                        <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+                        <input type="hidden" name="form_subject" value="Аудит системы">
+
+                        <input class="input audit__input" type="tel" name="Номер" placeholder="Номер телефона" required>
+                        <button class="audit__btn btn btn--blue" type="submit"><span>ОТПРАВИТЬ ЗАЯВКУ</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contract-info">
+            <div class="container container--contract-info">
+                <img class="contract-info__img" src="/images/page/img02.png" alt="contract-info">
+                <h2 class="title contract-info__title">
+                    заключаем договор на техническое обслуживание <br> следующих систем:
+                </h2>
+                <div class="contract-info__inner">
+                    <ul class="contract-info__list">
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                <b class="contract-info__list-title">
+                                    автоматическая система <br> пожарной сигнализации
+                                </b>
+                                <span class="contract-info__answer">
+                                    Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                                    регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                                    обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым
+                                    выводом из строя. Техническое обслуживание систем пожарной сигнализации - очень
+                                    важный момент, который регламентируется законом РФ. Потому что без своевременного и
+                                    грамотного технического обслуживания любой системы, и особенно пожарной сигнализации
+                                </span>
+                            </label>
+
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                <b class="contract-info__list-title">
+                                    система оповещения и управления эвакуацией <br> людей при пожаре (соуэ)
+
+                                </b>
+                                <span class="contract-info__answer">
+                                    Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                                    регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                                    обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым
+                                    выводом из строя. Техническое обслуживание систем пожарной сигнализации - очень
+                                    важный момент, который регламентируется законом РФ. Потому что без своевременного и
+                                    грамотного технического обслуживания любой системы, и особенно пожарной сигнализации
+                                </span>
+                            </label>
+
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                <b class="contract-info__list-title">
+                                    автоматическая установка <br> пожаротушения (аупт)
+                                </b>
+                                <span class="contract-info__answer">
+                                    Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                                    регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                                    обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым
+                                    выводом из строя. Техническое обслуживание систем пожарной сигнализации - очень
+                                    важный момент, который регламентируется законом РФ. Потому что без своевременного и
+                                    грамотного технического обслуживания любой системы, и особенно пожарной сигнализации
+                                </span>
+                            </label>
+
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                <b class="contract-info__list-title">
+                                    внутренний противопожарный <br> водопровод (впв)
+                                </b>
+                                <span class="contract-info__answer">
+                                    Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                                    регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                                    обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым
+                                    выводом из строя. Техническое обслуживание систем пожарной сигнализации - очень
+                                    важный момент, который регламентируется законом РФ. Потому что без своевременного и
+                                    грамотного технического обслуживания любой системы, и особенно пожарной сигнализации
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                <b class="contract-info__list-title">
+                                    автоматическая противопожарная <br> защита (АПпЗ)
+                                </b>
+                                <span class="contract-info__answer">
+                                    Техническое обслуживание систем пожарной сигнализации - очень важный момент, который
+                                    регламентируется законом РФ. Потому что без своевременного и грамотного технического
+                                    обслуживания любой системы, и особенно пожарной сигнализации в целом, грозит быстрым
+                                    выводом из строя. Техническое обслуживание систем пожарной сигнализации - очень
+                                    важный момент, который регламентируется законом РФ. Потому что без своевременного и
+                                    грамотного технического обслуживания любой системы, и особенно пожарной сигнализации
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="completed-job">
+            <div class="container">
+                <h2 class="title completed-job__title">
+                    УСПЕШНО ВЫПОЛНЕННЫЕ РАБОТЫ
+                </h2>
+                <div class="completed-job__inner">
+                    <div class="swiper-container completed-job__thumbs">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="completed-job__thumbs-content"><span class="completed-job__thumbs-title">БЦ
+                                        “СЕнатор”</span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__thumbs-content"><span class="completed-job__thumbs-title">бц
+                                        “ОРБИТА”</span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__thumbs-content"><span class="completed-job__thumbs-title">БЦ
+                                        “ЯКОРЬ”</span></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__thumbs-content"><span
+                                        class="completed-job__thumbs-title">офисный особняк “Ново-исаакиевский”</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                    <div class="swiper-container completed-job__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="completed-job__slider-inner">
+                                    <img src="images/page/slide.jpg" alt="slide">
+                                    <div class="completed-job__slider-content">
+                                        <h3 class="completed-job__slider-title">
+                                            БЦ “Орбита”
+                                        </h3>
+                                        <p>
+                                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                            который регламентируется законом РФ.
+                                            Потому что без своевременного и грамотного технического обслуживания любой
+                                            системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                            строя.
+                                            Что, в итоге, приведет к большим тратам на восстановление их
+                                            работоспособности. Техническое обслуживание систем пожарной сигнализации -
+                                            очень важный момент, который регламентируется законом РФ. Т ехническое
+                                            обслуживание систем пожарной сигнализации - очень важный момент, который
+                                            регламентируется законом РФ.
+                                        </p>
+                                        <a class="btn btn--op" href="#"><span>ПОДРОБНЕЕ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__slider-inner">
+                                    <img src="images/page/slide.jpg" alt="slide">
+                                    <div class="completed-job__slider-content">
+                                        <h3 class="completed-job__slider-title">
+                                            БЦ “Орбита”
+                                        </h3>
+                                        <p>
+                                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                            который регламентируется законом РФ.
+                                            Потому что без своевременного и грамотного технического обслуживания любой
+                                            системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                            строя.
+                                            Что, в итоге, приведет к большим тратам на восстановление их
+                                            работоспособности. Техническое обслуживание систем пожарной сигнализации -
+                                            очень важный момент, который регламентируется законом РФ. Т ехническое
+                                            обслуживание систем пожарной сигнализации - очень важный момент, который
+                                            регламентируется законом РФ.
+                                        </p>
+                                        <a class="btn btn--op" href="#"><span>ПОДРОБНЕЕ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__slider-inner">
+                                    <img src="images/page/slide.jpg" alt="slide">
+                                    <div class="completed-job__slider-content">
+                                        <h3 class="completed-job__slider-title">
+                                            БЦ “Орбита”
+                                        </h3>
+                                        <p>
+                                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                            который регламентируется законом РФ.
+                                            Потому что без своевременного и грамотного технического обслуживания любой
+                                            системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                            строя.
+                                            Что, в итоге, приведет к большим тратам на восстановление их
+                                            работоспособности. Техническое обслуживание систем пожарной сигнализации -
+                                            очень важный момент, который регламентируется законом РФ. Т ехническое
+                                            обслуживание систем пожарной сигнализации - очень важный момент, который
+                                            регламентируется законом РФ.
+                                        </p>
+                                        <a class="btn btn--op" href="#"><span>ПОДРОБНЕЕ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="completed-job__slider-inner">
+                                    <img src="images/page/slide.jpg" alt="slide">
+                                    <div class="completed-job__slider-content">
+                                        <h3 class="completed-job__slider-title">
+                                            БЦ “Орбита”
+                                        </h3>
+                                        <p>
+                                            Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                            который регламентируется законом РФ.
+                                            Потому что без своевременного и грамотного технического обслуживания любой
+                                            системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                            строя.
+                                            Что, в итоге, приведет к большим тратам на восстановление их
+                                            работоспособности. Техническое обслуживание систем пожарной сигнализации -
+                                            очень важный момент, который регламентируется законом РФ. Т ехническое
+                                            обслуживание систем пожарной сигнализации - очень важный момент, который
+                                            регламентируется законом РФ.
+                                        </p>
+                                        <a class="btn btn--op" href="#"><span>ПОДРОБНЕЕ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="license">
+            <div class="container">
+                <h2 class="title license__title">
+                    СВИДЕТЕЛЬСТВА И ЛИЦЕНЗИИ
+                </h2>
+                <div class="swiper-container license__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="images/license/01.jpg" data-fancybox="license">
+                                <img src="images/license/01.jpg" alt="license">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="images/license/02.jpg" data-fancybox="license">
+                                <img src="images/license/02.jpg" alt="license">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="images/license/03.jpg" data-fancybox="license">
+                                <img src="images/license/03.jpg" alt="license">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="container">
+                <div class="questions__inner">
+                    <div class="questions__content">
+                        <h2 class="title questions__title">
+                            ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ
+                        </h2>
+                        <div class="questions__items">
+                            <div class="questions__item">
+                                <button class="questions__item-title">
+                                    <span>
+                                        перечень систем пожарной автоматики, подлежащих техническому обслуживанию
+                                    </span>
+                                </button>
+                                <div class="questions__item-info questions__item-info--1">
+                                    <h4>1порядок действий при заключении договорана техническое обслуживание</h4>
+                                    <p>
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="questions__item">
+                                <button class="questions__item-title">
+                                    <span>
+                                        порядок действий при заключении договора на техническое обслуживание
+                                    </span>
+                                </button>
+                                <div class="questions__item-info questions__item-info--2">
+                                    <h4>2порядок действий при заключении договорана техническое обслуживание</h4>
+                                    <p>
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="questions__item">
+                                <button class="questions__item-title">
+                                    <span>
+                                        что входит в стоимость автоматической пожарной сигнализации?
+                                    </span>
+                                </button>
+                                <div class="questions__item-info questions__item-info--3">
+                                    <h4>3порядок действий при заключении договорана техническое обслуживание</h4>
+                                    <p>
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ.
+                                        Потому что без своевременного и грамотного технического обслуживания любой
+                                        системы, и особенно пожарной сигнализации в целом, грозит быстрым выводом из
+                                        строя.
+                                        Что, в итоге, приведет к большим тратам на восстановление их работоспособности.
+                                        Техническое обслуживание систем пожарной сигнализации - очень важный момент,
+                                        который регламентируется законом РФ. Т ехническое обслуживание систем пожарной
+                                        сигнализации - очень важный момент, который регламентируется законом РФ.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="questions__form">
+
+                        <input type="hidden" name="project_name" value="Spets-m">
+                        <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+                        <input type="hidden" name="form_subject" value="Вопросы">
+
+                        <h2 class="questions__form-title">
+                            Остались вопросы?
+                        </h2>
+                        <span class="questions__form-subtitle">
+                            Оставьте свой вопрос в форме, и мы ответим на него в ближайшее время
+                        </span>
+                        <input class="input questions__form-input" type="tel" name="Номер" placeholder="Номер телефона"
+                            required>
+                        <textarea class="input questions__form-input" name="Вопрос" placeholder="задайте вопрос здесь"
+                            required></textarea>
+                        <button class="btn btn--blue questions__form-btn" type="submit"><span>ОТПРАВИТЬ</span></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <a class="footer__logo-link" href="#">
+                            <img src="images/logo-footer.png" alt="logo">
+                        </a>
+                        <span class="footer__logo-descr">
+                            системы безопасности зданий и сооружений
+                        </span>
+                    </div>
+                    <div class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__quest">
+                        <span class="footer__quest-title">
+                            ОСТАЛИСЬ ВОПРОСЫ?
+                        </span>
+                        <a class="btn footer__btn" href="#">
+                            <span>СВЯЗАТЬСЯ С НАМИ</span>
+                        </a>
+                    </div>
+                    <div class="footer__contacts">
+
+                        <div class="footer__contact">
+                            <span class="footer__phone"><a href="tel:+78129869953">+7 (812) 986-99-53</a></span>
+                            <span class="footer__mail"><a href="mailto:info@sks-sp.ru">info@sks-sp.ru</a></span>
+                        </div>
+                        <div class="footer__address">
+                            <span class="footer__city">Санкт-Петербург</span>
+                            <span>Полюстровский проспект д.72</span>
+                        </div>
+
+                    </div>
+                </div>
+                <span class="creator">Разработка и продвижение <a class="creator__link" rel="nofollow"
+                        href="https://silverduck.net/">SilverDuck</a></span>
+            </div>
+        </footer>
+    </div>
+    <div class="modal-callback">
+        <form class="modal-form">
+
+            <input type="hidden" name="project_name" value="Spets-m">
+            <input type="hidden" name="admin_email" value="maddmerf@gmail.com">
+            <input type="hidden" name="form_subject" value="Новая заявка">
+
+            <h2 class="modal-form__form-title">
+                Рассчитать стоимость работ
+            </h2>
+            <span class="modal-form__form-subtitle">
+                Оставьте заявку, и мы свяжемся с вами в течение <b>20 минут</b>
+            </span>
+            <input class="input modal-form__form-input" type="tel" name="Номер" placeholder="Номер телефона" required>
+            <input class="input modal-form__form-input" type="email" name="E-mail" placeholder="E-mail" required>
+            <button class="btn modal-form__form-btn" type="submit"><span>РАССЧИТАТЬ</span></button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script>
+        var callbackBtns = document.querySelectorAll('.info__callback'),
+            footerBtn = document.querySelector('.footer__btn');
+
+        var callbackModal = new tingle.modal({
+            footer: false,
+            stickyFooter: false,
+            closeMethods: ['overlay', 'button', 'escape'],
+            closeLabel: "Закрыть",
+            cssClass: ['custom-class-3'],
+        });
+
+        callbackModal.setContent(document.querySelector(".modal-callback").innerHTML);
+
+
+        callbackBtns.forEach((callbackBtn) => {
+            callbackBtn.addEventListener('click', function () {
+                callbackModal.open();
+            });
+        });
+
+        footerBtn.addEventListener('click', function () {
+            callbackModal.open();
+        });
+    </script>
+</body>
+
+</html>
